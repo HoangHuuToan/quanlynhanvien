@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /news
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.*)$ category.php?slug=$0 [L]

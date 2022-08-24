@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Connect_DB\\":"connect_DB/",
+            "Mytest\\":"mytest/"
+        },
+        "files": ["connect_DB/data/config.php",
+                    ".env"]
+    },
+    "require": {
+        "johnathanmiller/secure-env-php": "^2.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

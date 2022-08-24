@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /check
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
